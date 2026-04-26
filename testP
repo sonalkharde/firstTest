@@ -1,0 +1,18 @@
+javascript
+// A simple JavaScript program to manage a Task List
+const myTasks = ["Learn Git", "Install Node.js"];
+
+// Function to add a new task
+function addTask(newTask) {
+    myTasks.push(newTask);
+    console.log(`✅ Added: ${newTask}`);
+}
+
+// Adding a new task
+addTask("Master Playwright");
+
+// Printing all tasks using a loop
+console.log("\n--- My Current Task List ---");
+myTasks.forEach((task, index) => {
+    console.log(`${index + 1}. ${task}`);
+});
