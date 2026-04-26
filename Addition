@@ -1,0 +1,14 @@
+/ Simple Addition Program
+let number1 = 10;
+let number2 = 20;
+
+// Adding the two numbers
+let sum = number1 + number2;
+
+// Printing the result to the console
+console.log("The sum of " + number1 + " and " + number2 + " is: " + sum);
+
+// Example of a function for addition
+function addNumbers(a, b) {
+    return a + b;
+}
